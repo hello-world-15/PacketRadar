@@ -82,7 +82,6 @@ def _draw_chrome(canvas, doc, title: str):
     canvas.line(MARGIN, 12 * mm, PAGE_W - MARGIN, 12 * mm)
     canvas.setFont("Helvetica", 8)
     canvas.setFillColor(GRAY)
-    canvas.drawString(MARGIN, 8 * mm, "Confidential — PacketRadar Automated Analysis")
     canvas.drawRightString(PAGE_W - MARGIN, 8 * mm, f"Page {doc.page}")
     canvas.restoreState()
 
