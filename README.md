@@ -1,5 +1,11 @@
 # PacketRadar
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
+![Node](https://img.shields.io/badge/node-18%2B-green.svg)
+![React](https://img.shields.io/badge/react-18-61DAFB.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg)
+
 Live network traffic monitor and offline PCAP analyzer, built as a full‑stack
 app: a Python/Scapy packet‑capture backend feeding a real‑time React
 dashboard, plus a separate analyzer for inspecting `.pcap`/`.pcapng` files
@@ -212,6 +218,11 @@ Full details, including the reasoning behind each cut, are in
 - Hostname resolution (mDNS/DHCP/reverse DNS) for hosts and talkers
 - Additional threat rules (DNS tunneling, C2 beaconing, exfiltration)
 - Background job queue for large PCAP uploads with progress reporting
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup notes and development
+guidelines.
 
 ## License
 
