@@ -6,3 +6,5 @@ psutil>=6.0
 python-multipart>=0.0.9
 reportlab>=4.0
 matplotlib>=3.8
+streamlit>=1.38
+pandas>=2.2
