@@ -1,0 +1,42 @@
+# ---- Node / Frontend ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+*.tsbuildinfo
+
+# ---- Python / Backend ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ---- Captured / uploaded data (sensitive — never commit real traffic) ----
+backend/captures/*
+!backend/captures/.gitkeep
+backend/pcap_uploads/*
+!backend/pcap_uploads/.gitkeep
+backend/data/known_hosts.json
+*.pcap
+*.pcapng
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+npm-debug.log*
