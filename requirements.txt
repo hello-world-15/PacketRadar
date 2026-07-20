@@ -1,7 +1,3 @@
-# Requirements for the Streamlit deployment (PCAP Analyzer only).
-# This is intentionally a subset of backend/requirements.txt — it omits
-# fastapi/uvicorn/python-multipart/psutil, which are only needed by the
-# live-capture FastAPI server, not by this Streamlit app.
 streamlit>=1.38
 scapy>=2.5
 pydantic>=2.9
