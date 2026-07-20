@@ -1,0 +1,2 @@
+This folder holds live capture .pcap files written by PacketRadar.
+Contents are gitignored — do not commit real traffic captures.

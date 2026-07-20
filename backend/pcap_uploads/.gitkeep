@@ -1,0 +1,2 @@
+This folder holds user-uploaded .pcap/.pcapng files for analysis.
+Contents are gitignored — do not commit real traffic captures.

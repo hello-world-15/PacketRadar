@@ -1,0 +1,3 @@
+known_hosts.json is generated at runtime (MAC -> hostname cache) and
+is gitignored since it can contain real device/personal names.
+Delete this file and the app will regenerate an empty one on next run.
