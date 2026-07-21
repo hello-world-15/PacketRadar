@@ -24,6 +24,7 @@ backend/pcap_uploads/*
 !backend/pcap_uploads/.gitkeep
 backend/data/known_hosts.json
 *.pcap
+!sample_captures/demo_attack_scenario.pcap
 *.pcapng
 
 # ---- Env / secrets ----
